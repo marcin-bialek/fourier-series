@@ -1,4 +1,4 @@
 # fourier-series
 
-Inspired by: https://youtu.be/r6sGWTCMz2k
-Preview: bialek.dev/projects/fourier-series/
+Inspired by: https://youtu.be/r6sGWTCMz2k \
+Preview: https://bialek.dev/projects/fourier-series/
