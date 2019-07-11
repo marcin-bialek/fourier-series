@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fourier Series</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <canvas id="image">
+    </canvas>
+
+    <div id="control-panel">
+        <span id="info-panel"></span>
+        <button id="reset-button" hidden>Reset</button>
+        <button id="continue-button" hidden>Continue</button>
+    </div>
+
+    <script src="lib.js"></script>
+    <script src="script.js"></script>
+    <script>
+        var canvas = document.getElementById("image")
+        canvas.width = window.innerWidth
+        canvas.height = window.innerHeight
+
+        var app = new window.jsApp({
+            canvas: canvas,
+            unit: 1,
+            gridSpace: 150,
+            infoPanel: document.getElementById("info-panel"),
+            resetButton: document.getElementById("reset-button"),
+            continueButton: document.getElementById("continue-button")
+        })
+
+        app.start()
+    </script>
+</body>
+</html>
