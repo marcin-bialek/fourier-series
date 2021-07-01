@@ -1,0 +1,5 @@
+.DS_Store
+public/404.html
+.firebase
+.firebaserc
+firebase.json
